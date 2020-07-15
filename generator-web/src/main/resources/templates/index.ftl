@@ -61,7 +61,7 @@
                             content: "代码生成成功",
                             end: function () {
                                 codeData = data.data;
-                                genCodeArea.setValue(codeData.beetlentity);
+                                genCodeArea.setValue(codeData.entity);
                                 genCodeArea.setSize('auto', 'auto');
                             }
                         });
@@ -138,7 +138,7 @@ CREATE TABLE `userinfo` (
                 </div>
                 <div class="btn-group" role="group" aria-label="First group">
                     <button type="button" class="btn btn-default generator" id="model">entity(set/get)</button>
-                    <button type="button" class="btn btn-default generator" id="beetlentity">entity(lombok)</button>
+                    <button type="button" class="btn btn-default generator" id="entity">entity(lombok)</button>
                 </div>
             </div>
             <div class="btn-toolbar col-md-7" role="toolbar" aria-label="Toolbar with button groups">
